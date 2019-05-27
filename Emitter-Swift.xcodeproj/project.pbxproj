@@ -12,6 +12,15 @@
 		ED9E2F73229843E8004ED16B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9E2F71229843E8004ED16B /* Main.storyboard */; };
 		ED9E2F75229843E8004ED16B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9E2F74229843E8004ED16B /* Assets.xcassets */; };
 		ED9E2F78229843E8004ED16B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9E2F76229843E8004ED16B /* LaunchScreen.storyboard */; };
+		ED9E2F842298F21C004ED16B /* Underwater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED9E2F832298F21C004ED16B /* Underwater.mp3 */; };
+		ED9E2FC2229944A8004ED16B /* Mozart-symphony-40.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED9E2FC1229944A7004ED16B /* Mozart-symphony-40.mp3 */; };
+		ED9E2FC4229944C2004ED16B /* Bubbles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED9E2FC3229944C2004ED16B /* Bubbles.mp3 */; };
+		ED9E2FC6229946E5004ED16B /* beethoven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED9E2FC5229946E4004ED16B /* beethoven.mp3 */; };
+		ED9E2FC8229953F5004ED16B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED9E2FC7229953F5004ED16B /* icon.png */; };
+		ED9E2FCA2299546D004ED16B /* icons8-defrosting.png in Resources */ = {isa = PBXBuildFile; fileRef = ED9E2FC92299546D004ED16B /* icons8-defrosting.png */; };
+		ED9E2FD2229A9934004ED16B /* heavy_metal_thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED9E2FD1229A9934004ED16B /* heavy_metal_thunder.mp3 */; };
+		ED9E2FF2229B577A004ED16B /* hell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED9E2FF1229B577A004ED16B /* hell.mp3 */; };
+		ED9E2FF4229B58DF004ED16B /* noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED9E2FF3229B58DF004ED16B /* noise.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		ED9E2F74229843E8004ED16B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED9E2F77229843E8004ED16B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED9E2F79229843E8004ED16B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9E2F832298F21C004ED16B /* Underwater.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Underwater.mp3; sourceTree = "<group>"; };
+		ED9E2FC1229944A7004ED16B /* Mozart-symphony-40.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mozart-symphony-40.mp3"; sourceTree = "<group>"; };
+		ED9E2FC3229944C2004ED16B /* Bubbles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bubbles.mp3; sourceTree = "<group>"; };
+		ED9E2FC5229946E4004ED16B /* beethoven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beethoven.mp3; sourceTree = "<group>"; };
+		ED9E2FC7229953F5004ED16B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		ED9E2FC92299546D004ED16B /* icons8-defrosting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-defrosting.png"; sourceTree = "<group>"; };
+		ED9E2FD1229A9934004ED16B /* heavy_metal_thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = heavy_metal_thunder.mp3; sourceTree = "<group>"; };
+		ED9E2FF1229B577A004ED16B /* hell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hell.mp3; sourceTree = "<group>"; };
+		ED9E2FF3229B58DF004ED16B /* noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = noise.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,15 @@
 				ED9E2F74229843E8004ED16B /* Assets.xcassets */,
 				ED9E2F76229843E8004ED16B /* LaunchScreen.storyboard */,
 				ED9E2F79229843E8004ED16B /* Info.plist */,
+				ED9E2FC92299546D004ED16B /* icons8-defrosting.png */,
+				ED9E2FC7229953F5004ED16B /* icon.png */,
+				ED9E2F832298F21C004ED16B /* Underwater.mp3 */,
+				ED9E2FC1229944A7004ED16B /* Mozart-symphony-40.mp3 */,
+				ED9E2FC5229946E4004ED16B /* beethoven.mp3 */,
+				ED9E2FC3229944C2004ED16B /* Bubbles.mp3 */,
+				ED9E2FD1229A9934004ED16B /* heavy_metal_thunder.mp3 */,
+				ED9E2FF1229B577A004ED16B /* hell.mp3 */,
+				ED9E2FF3229B58DF004ED16B /* noise.mp3 */,
 			);
 			path = "Emitter-Swift";
 			sourceTree = "<group>";
@@ -122,8 +149,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9E2FC4229944C2004ED16B /* Bubbles.mp3 in Resources */,
 				ED9E2F78229843E8004ED16B /* LaunchScreen.storyboard in Resources */,
+				ED9E2FC8229953F5004ED16B /* icon.png in Resources */,
+				ED9E2FCA2299546D004ED16B /* icons8-defrosting.png in Resources */,
+				ED9E2F842298F21C004ED16B /* Underwater.mp3 in Resources */,
+				ED9E2FD2229A9934004ED16B /* heavy_metal_thunder.mp3 in Resources */,
+				ED9E2FC6229946E5004ED16B /* beethoven.mp3 in Resources */,
 				ED9E2F75229843E8004ED16B /* Assets.xcassets in Resources */,
+				ED9E2FC2229944A8004ED16B /* Mozart-symphony-40.mp3 in Resources */,
+				ED9E2FF4229B58DF004ED16B /* noise.mp3 in Resources */,
+				ED9E2FF2229B577A004ED16B /* hell.mp3 in Resources */,
 				ED9E2F73229843E8004ED16B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
