@@ -25,11 +25,11 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate {
     @IBOutlet weak var startSpeechButton: UIButton!
     @IBOutlet weak var detectedTextLabel: UILabel!
     
-    private var speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: "en-US"))
+    private var speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: "ar-SA"))
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
     private var recognitionTask: SFSpeechRecognitionTask?
     private var audioEngine = AVAudioEngine()
-    var lang: String = "en-US"
+    var lang: String = "ar-SA"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,7 +51,7 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate {
         tapGesture.delegate = self as? UIGestureRecognizerDelegate
         view.addGestureRecognizer(tapGesture)
 
-        playSoundFunc(resource: "Bubbles")
+//        playSoundFunc(resource: "Bubbles")
         
         startSpeechButton.isEnabled = false  //2
         speechRecognizer?.delegate = self as? SFSpeechRecognizerDelegate  //3
